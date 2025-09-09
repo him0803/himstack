@@ -36,3 +36,30 @@ Turn your imagination into visual art in seconds with this AI-powered text-to-im
 
 ## 📁 Project Structure
 
+dreamimage/
+│
+├── client/ # Frontend (React)
+│ ├── public/
+│ └── src/
+│ ├── assets/ # Images & assets
+│ ├── components/ # Reusable React components
+│ ├── context/ # Global state management
+│ ├── pages/ # Page components (Home, Result, Buycredit)
+│ ├── App.jsx # Main App
+│ └── App.css # Magical UI styling
+│
+├── server/ # Backend (Node.js + Express)
+│ ├── config/ # DB config
+│ ├── controllers/ # Business logic
+│ ├── routes/ # API routes
+│ ├── models/ # MongoDB schemas
+│ ├── server.js # Entry point
+│
+├── .env # Environment variables
+├── package.json # Project metadata
+└── README.md # Project documentation
+
+
+---
+
+
